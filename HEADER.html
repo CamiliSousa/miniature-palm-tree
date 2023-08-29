@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabeçalho</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 1080px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+    
+    header {
+        background-color: antiquewhite;
+        width: 100%;
+    }
+
+    .Menu {
+        width: 50%;
+    }
+
+    .Logo,.sociais {
+        width: 25%;
+    }
+
+    .Logo img {
+        width: 150px;
+    }
+
+    .Menu {
+        width: 50%;
+    }
+
+    .Menu nav a {
+        text-decoration: none;
+        color:darkred;
+        padding-right: 50px;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .sociais button {
+        background-color:antiquewhite;
+        padding: 10px;
+        border-radius: 10%;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-color: darkred;
+    }
+
+    .forms {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 10px
+    }
+    
+    .checkbox {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 10px
+    }
+
+
+
+</style>
+<body>
+    <header>
+        <div class="container">
+            <div class="Logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/2857/2857569.png">
+            </div>
+            <div class="Menu">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
+                <a href="#">Quem somos</a>
+            </nav>
+            </div>
+            <div class="sociais">
+                <button>Facebook</button>
+                <button>Instagram</button>
+            </div>
+        </div>
+    
+
+<div class="forms">    
+<form>
+    <input type="text" placeholder="Nome">
+    <input type="number" placeholder="Número">
+    <input type="email" placeholder="E-mail">
+    <input type="date" placeholder="Data de Nascimento">
+    <input type="search" placeholder="Pesquisar">
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+</form>
+</div>  
+    <div class="checkbox">
+    <input type="radio" name="genero" value="M">  Masculino 
+    <input type="radio" name="genero" value="F">  Feminino <br>
+    <input type="checkbox" name="interesse" value="Artes">  Artes
+    <input type="checkbox" name="interesse" value="Vídeos">  Vídeos
+    <input type="checkbox" name="interesse" value="Websites">  Websites
+    <input type="range">
+    <input type="color"> 
+       
+    <fieldset>
+        <legend>Preencha seus dados</legend>
+        <input type="text" placeholder="Nome">
+        <input type="number" placeholder="Número">
+        <input type="email" placeholder="E-mail">
+        <input type="date" placeholder="Data de Nascimento">
+        <input type="search" placeholder="Pesquisar">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </fieldset>
+    </div>  
+</header>
+</body>
+</html>
